@@ -1,0 +1,19 @@
+{
+  "name": "database-connection",
+  "version": "0.0.1",
+  "description": "FIUS DB for https://github.com/FIUSdevelopment/database-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FIUSdevelopment/JS-Database-connection.git"
+  },
+  "author": "FIUS Development | Killer Boss Original",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FIUSdevelopment/JS-Database-connection/issues"
+  },
+  "homepage": "https://github.com/FIUSdevelopment/JS-Database-connection#readme"
+}
