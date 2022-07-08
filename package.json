@@ -4,7 +4,8 @@
   "description": "FIUS DB for https://github.com/FIUSdevelopment/database-server",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "npm start",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FIUSdevelopment/JS-Database-connection/issues"
   },
-  "homepage": "https://github.com/FIUSdevelopment/JS-Database-connection#readme"
+  "homepage": "https://github.com/FIUSdevelopment/JS-Database-connection#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
