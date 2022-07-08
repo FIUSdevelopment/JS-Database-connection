@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 var ciccio = {
-  baudo = 1,
-  pippo = 'amico di topolino'
+  baudo: 1,
+  pippo: 'amico di topolino'
 }
 
 async function get (auth, name) {
