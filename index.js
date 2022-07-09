@@ -6,7 +6,7 @@ var ciccio = {
 }
 
 async function get (auth, name) {
-    await axios.postd('http://greatnetwork.eu:10009/api/fius2022./database/bello/set/', ciccio)
+    await axios.post('http://greatnetwork.eu:10009/api/fius2022./database/bello/set/', ciccio)
     .then(function (response) {
       // handle success
       console.log(response);
