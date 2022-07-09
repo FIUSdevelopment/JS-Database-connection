@@ -9,7 +9,7 @@ async function get (auth, name) {
     await axios.post('http://greatnetwork.eu:10009/api/database/set/', ciccio)
     .then(function (response) {
       // handle success
-      console.log(response);
+      console.log(response.data);
     })
     .catch(function (error) {
       // handle error
